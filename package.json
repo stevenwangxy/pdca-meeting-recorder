@@ -1,0 +1,10 @@
+{
+  "name": "pdca-recorder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pure-function test harness for PDCA recorder",
+  "scripts": {
+    "test:pure": "npm run test --prefix tests/pure",
+    "tsc:check": "tsc --noEmit -p tests/pure/tsconfig.json"
+  }
+}

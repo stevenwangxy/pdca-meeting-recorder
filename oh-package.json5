@@ -1,0 +1,12 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "pdca_recorder",
+  "version": "1.0.0",
+  "description": "Meeting PDCA recorder atomic service",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.21",
+    "@ohos/hvigor-ohos-plugin": "5.0.5",
+    "@ohos/hvigor": "5.0.5"
+  }
+}
