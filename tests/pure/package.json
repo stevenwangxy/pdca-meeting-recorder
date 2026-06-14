@@ -1,0 +1,14 @@
+{
+  "name": "pdca-pure-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test --import tsx *.test.ts",
+    "build": "tsc -p tests/pure/tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
